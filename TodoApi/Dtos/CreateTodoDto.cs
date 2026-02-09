@@ -1,10 +1,10 @@
-﻿namespace TodoApi
+﻿namespace TodoApi.Dtos
 {
-    public class Todo
+    public class CreateTodoDto
     {
         public int Id { get; set; }
         public string? Name { get; set; }
         public bool IsCompleted { get; set; }
-        public string? Secrete { get; set; }
+
     }
 }
